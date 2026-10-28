@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bangalore (approximate BBMP limits)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Bangalore", "note": "Simplified, approximate. Deliberately generous around Electronic City." },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.48, 13.03], [77.52, 13.09], [77.56, 13.12], [77.62, 13.135], [77.65, 13.10],
+          [77.65, 13.06], [77.69, 13.045], [77.73, 13.035], [77.78, 13.01], [77.79, 12.98],
+          [77.79, 12.94], [77.75, 12.90], [77.72, 12.88], [77.69, 12.87], [77.68, 12.81],
+          [77.62, 12.81], [77.59, 12.84], [77.54, 12.86], [77.51, 12.89], [77.47, 12.93],
+          [77.46, 12.98], [77.48, 13.03]
+        ]]
+      }
+    }
+  ]
+}

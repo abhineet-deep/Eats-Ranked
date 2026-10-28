@@ -1,0 +1,32 @@
+{
+  "name": "eats-ranked",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bayesian-ranked eat/drink places in Bangalore and Gurgaon from Google Places ratings",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "preview": "npm --prefix web run preview",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "refresh": "node scripts/refresh.js",
+    "smoke": "node scripts/smoke.js",
+    "map-preview": "node scripts/map-preview.js",
+    "validate-config": "node scripts/validate-config.js",
+    "build-mock": "node scripts/build-mock.js",
+    "postinstall": "npm --prefix web install"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.14.0",
+    "vitest": "^2.1.8"
+  }
+}

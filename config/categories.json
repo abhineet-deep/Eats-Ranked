@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "id": "premium",
+      "label": "Premium restaurant",
+      "shortLabel": "Premium",
+      "textQuery": "fine dining restaurant",
+      "includedType": "restaurant",
+      "priceLevels": ["PRICE_LEVEL_EXPENSIVE", "PRICE_LEVEL_VERY_EXPENSIVE"],
+      "minRating": 3.5
+    },
+    {
+      "id": "cafe",
+      "label": "Cafe",
+      "shortLabel": "Cafe",
+      "textQuery": "cafe",
+      "includedType": "cafe",
+      "minRating": 3.5
+    },
+    {
+      "id": "pub",
+      "label": "Pub/Bar",
+      "shortLabel": "Pub/Bar",
+      "textQuery": "pub and bar",
+      "includedType": "bar",
+      "minRating": 3.5
+    },
+    {
+      "id": "club",
+      "label": "Club",
+      "shortLabel": "Club",
+      "textQuery": "night club",
+      "includedType": "night_club",
+      "minRating": 3.5
+    },
+    {
+      "id": "eatery",
+      "label": "Everyday eatery",
+      "shortLabel": "Everyday",
+      "textQuery": "restaurant",
+      "includedType": "restaurant",
+      "priceLevels": ["PRICE_LEVEL_INEXPENSIVE", "PRICE_LEVEL_MODERATE"],
+      "minRating": 3.5
+    }
+  ],
+  "m": { "cityTop": 500, "lists": 150 },
+  "listSizes": { "cityTop": 50, "lists": 15 },
+  "pagesPerQuery": 2,
+  "budget": { "monthlyHardStop": 950, "monthlyFree": 1000, "maxPlannedSweep": 600 }
+}

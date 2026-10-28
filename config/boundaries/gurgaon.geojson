@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gurgaon (approximate Gurugram municipal limits)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Gurgaon", "note": "Simplified, approximate." },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [76.93, 28.50], [76.98, 28.52], [77.04, 28.53], [77.09, 28.53], [77.13, 28.50],
+          [77.13, 28.45], [77.13, 28.40], [77.11, 28.37], [77.05, 28.35], [77.00, 28.35],
+          [76.95, 28.36], [76.92, 28.39], [76.91, 28.44], [76.93, 28.50]
+        ]]
+      }
+    }
+  ]
+}

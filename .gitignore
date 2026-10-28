@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# sweep state and raw Google responses
+data/raw/
+data/usage.json
+data/checkpoint.json
+
+# dependencies and build output
+node_modules/
+web/node_modules/
+web/dist/
+
+# generated
+map-preview.html
+
+# misc
+.DS_Store
+*.log

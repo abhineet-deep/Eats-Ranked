@@ -1,0 +1,786 @@
+{
+  "cities": {
+    "blr": {
+      "name": "Bangalore",
+      "boundary": "config/boundaries/bangalore.geojson",
+      "localities": [
+        {
+          "id": "hsr-layout",
+          "name": "HSR Layout",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9006,
+              "longitude": 77.6364
+            },
+            "high": {
+              "latitude": 12.9226,
+              "longitude": 77.6584
+            }
+          }
+        },
+        {
+          "id": "aecs-layout",
+          "name": "AECS Layout",
+          "rectangle": {
+            "low": {
+              "latitude": 12.954,
+              "longitude": 77.705
+            },
+            "high": {
+              "latitude": 12.972,
+              "longitude": 77.725
+            }
+          }
+        },
+        {
+          "id": "koramangala",
+          "name": "Koramangala",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9242,
+              "longitude": 77.6135
+            },
+            "high": {
+              "latitude": 12.9462,
+              "longitude": 77.6355
+            }
+          }
+        },
+        {
+          "id": "indiranagar",
+          "name": "Indiranagar",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9684,
+              "longitude": 77.6298
+            },
+            "high": {
+              "latitude": 12.9884,
+              "longitude": 77.6518
+            }
+          }
+        },
+        {
+          "id": "whitefield",
+          "name": "Whitefield",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9588,
+              "longitude": 77.738
+            },
+            "high": {
+              "latitude": 12.9808,
+              "longitude": 77.762
+            }
+          }
+        },
+        {
+          "id": "marathahalli",
+          "name": "Marathahalli",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9501,
+              "longitude": 77.687
+            },
+            "high": {
+              "latitude": 12.9681,
+              "longitude": 77.705
+            }
+          }
+        },
+        {
+          "id": "bellandur",
+          "name": "Bellandur",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9194,
+              "longitude": 77.6674
+            },
+            "high": {
+              "latitude": 12.9414,
+              "longitude": 77.6894
+            }
+          }
+        },
+        {
+          "id": "sarjapur-road",
+          "name": "Sarjapur Road",
+          "rectangle": {
+            "low": {
+              "latitude": 12.895,
+              "longitude": 77.676
+            },
+            "high": {
+              "latitude": 12.917,
+              "longitude": 77.698
+            }
+          }
+        },
+        {
+          "id": "btm-layout",
+          "name": "BTM Layout",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9066,
+              "longitude": 77.6001
+            },
+            "high": {
+              "latitude": 12.9266,
+              "longitude": 77.6201
+            }
+          }
+        },
+        {
+          "id": "jayanagar",
+          "name": "Jayanagar",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9218,
+              "longitude": 77.5738
+            },
+            "high": {
+              "latitude": 12.9398,
+              "longitude": 77.5938
+            }
+          }
+        },
+        {
+          "id": "jp-nagar",
+          "name": "JP Nagar",
+          "rectangle": {
+            "low": {
+              "latitude": 12.8963,
+              "longitude": 77.5747
+            },
+            "high": {
+              "latitude": 12.9163,
+              "longitude": 77.5967
+            }
+          }
+        },
+        {
+          "id": "banashankari",
+          "name": "Banashankari",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9145,
+              "longitude": 77.5358
+            },
+            "high": {
+              "latitude": 12.9365,
+              "longitude": 77.5578
+            }
+          }
+        },
+        {
+          "id": "basavanagudi",
+          "name": "Basavanagudi",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9342,
+              "longitude": 77.5646
+            },
+            "high": {
+              "latitude": 12.9502,
+              "longitude": 77.5826
+            }
+          }
+        },
+        {
+          "id": "mg-road-brigade-road",
+          "name": "MG Road/Brigade Road",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9615,
+              "longitude": 77.6045
+            },
+            "high": {
+              "latitude": 12.9765,
+              "longitude": 77.6195
+            }
+          }
+        },
+        {
+          "id": "church-street",
+          "name": "Church Street",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9685,
+              "longitude": 77.5965
+            },
+            "high": {
+              "latitude": 12.9835,
+              "longitude": 77.6115
+            }
+          }
+        },
+        {
+          "id": "lavelle-road-ub-city",
+          "name": "Lavelle Road/UB City",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9615,
+              "longitude": 77.5885
+            },
+            "high": {
+              "latitude": 12.9765,
+              "longitude": 77.6035
+            }
+          }
+        },
+        {
+          "id": "malleshwaram",
+          "name": "Malleshwaram",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9955,
+              "longitude": 77.562
+            },
+            "high": {
+              "latitude": 13.0115,
+              "longitude": 77.58
+            }
+          }
+        },
+        {
+          "id": "rajajinagar",
+          "name": "Rajajinagar",
+          "rectangle": {
+            "low": {
+              "latitude": 12.981,
+              "longitude": 77.542
+            },
+            "high": {
+              "latitude": 13.001,
+              "longitude": 77.562
+            }
+          }
+        },
+        {
+          "id": "yeshwanthpur",
+          "name": "Yeshwanthpur",
+          "rectangle": {
+            "low": {
+              "latitude": 13.013,
+              "longitude": 77.53
+            },
+            "high": {
+              "latitude": 13.033,
+              "longitude": 77.55
+            }
+          }
+        },
+        {
+          "id": "hebbal",
+          "name": "Hebbal",
+          "rectangle": {
+            "low": {
+              "latitude": 13.0268,
+              "longitude": 77.586
+            },
+            "high": {
+              "latitude": 13.0448,
+              "longitude": 77.608
+            }
+          }
+        },
+        {
+          "id": "rt-nagar",
+          "name": "RT Nagar",
+          "rectangle": {
+            "low": {
+              "latitude": 13.013,
+              "longitude": 77.586
+            },
+            "high": {
+              "latitude": 13.029,
+              "longitude": 77.604
+            }
+          }
+        },
+        {
+          "id": "frazer-town",
+          "name": "Frazer Town",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9905,
+              "longitude": 77.605
+            },
+            "high": {
+              "latitude": 13.0065,
+              "longitude": 77.623
+            }
+          }
+        },
+        {
+          "id": "ulsoor",
+          "name": "Ulsoor",
+          "rectangle": {
+            "low": {
+              "latitude": 12.973,
+              "longitude": 77.611
+            },
+            "high": {
+              "latitude": 12.989,
+              "longitude": 77.629
+            }
+          }
+        },
+        {
+          "id": "domlur",
+          "name": "Domlur",
+          "rectangle": {
+            "low": {
+              "latitude": 12.953,
+              "longitude": 77.6307
+            },
+            "high": {
+              "latitude": 12.969,
+              "longitude": 77.6467
+            }
+          }
+        },
+        {
+          "id": "hal-old-airport-road",
+          "name": "HAL/Old Airport Road",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9495,
+              "longitude": 77.654
+            },
+            "high": {
+              "latitude": 12.9675,
+              "longitude": 77.676
+            }
+          }
+        },
+        {
+          "id": "cv-raman-nagar",
+          "name": "CV Raman Nagar",
+          "rectangle": {
+            "low": {
+              "latitude": 12.977,
+              "longitude": 77.654
+            },
+            "high": {
+              "latitude": 12.993,
+              "longitude": 77.674
+            }
+          }
+        },
+        {
+          "id": "kr-puram",
+          "name": "KR Puram",
+          "rectangle": {
+            "low": {
+              "latitude": 12.997,
+              "longitude": 77.686
+            },
+            "high": {
+              "latitude": 13.017,
+              "longitude": 77.708
+            }
+          }
+        },
+        {
+          "id": "electronic-city",
+          "name": "Electronic City",
+          "rectangle": {
+            "low": {
+              "latitude": 12.834,
+              "longitude": 77.649
+            },
+            "high": {
+              "latitude": 12.856,
+              "longitude": 77.671
+            }
+          }
+        },
+        {
+          "id": "bannerghatta-road",
+          "name": "Bannerghatta Road",
+          "rectangle": {
+            "low": {
+              "latitude": 12.879,
+              "longitude": 77.589
+            },
+            "high": {
+              "latitude": 12.901,
+              "longitude": 77.611
+            }
+          }
+        },
+        {
+          "id": "kalyan-nagar",
+          "name": "Kalyan Nagar",
+          "rectangle": {
+            "low": {
+              "latitude": 13.018,
+              "longitude": 77.634
+            },
+            "high": {
+              "latitude": 13.034,
+              "longitude": 77.656
+            }
+          }
+        },
+        {
+          "id": "kammanahalli",
+          "name": "Kammanahalli",
+          "rectangle": {
+            "low": {
+              "latitude": 13.002,
+              "longitude": 77.631
+            },
+            "high": {
+              "latitude": 13.018,
+              "longitude": 77.649
+            }
+          }
+        },
+        {
+          "id": "yelahanka",
+          "name": "Yelahanka",
+          "rectangle": {
+            "low": {
+              "latitude": 13.0907,
+              "longitude": 77.5853
+            },
+            "high": {
+              "latitude": 13.1107,
+              "longitude": 77.6073
+            }
+          }
+        },
+        {
+          "id": "sadashivanagar",
+          "name": "Sadashivanagar",
+          "rectangle": {
+            "low": {
+              "latitude": 13.002,
+              "longitude": 77.576
+            },
+            "high": {
+              "latitude": 13.016,
+              "longitude": 77.59
+            }
+          }
+        },
+        {
+          "id": "vijayanagar",
+          "name": "Vijayanagar",
+          "rectangle": {
+            "low": {
+              "latitude": 12.9619,
+              "longitude": 77.52
+            },
+            "high": {
+              "latitude": 12.9819,
+              "longitude": 77.54
+            }
+          }
+        },
+        {
+          "id": "sahakar-nagar",
+          "name": "Sahakar Nagar",
+          "rectangle": {
+            "low": {
+              "latitude": 13.0525,
+              "longitude": 77.579
+            },
+            "high": {
+              "latitude": 13.0705,
+              "longitude": 77.597
+            }
+          }
+        }
+      ]
+    },
+    "ggn": {
+      "name": "Gurgaon",
+      "boundary": "config/boundaries/gurgaon.geojson",
+      "localities": [
+        {
+          "id": "cyber-hub-dlf-cyber-city",
+          "name": "Cyber Hub/DLF Cyber City",
+          "rectangle": {
+            "low": {
+              "latitude": 28.487,
+              "longitude": 77.081
+            },
+            "high": {
+              "latitude": 28.503,
+              "longitude": 77.097
+            }
+          }
+        },
+        {
+          "id": "golf-course-road",
+          "name": "Golf Course Road",
+          "rectangle": {
+            "low": {
+              "latitude": 28.439,
+              "longitude": 77.094
+            },
+            "high": {
+              "latitude": 28.457,
+              "longitude": 77.11
+            }
+          }
+        },
+        {
+          "id": "sector-29",
+          "name": "Sector 29",
+          "rectangle": {
+            "low": {
+              "latitude": 28.457,
+              "longitude": 77.06
+            },
+            "high": {
+              "latitude": 28.473,
+              "longitude": 77.076
+            }
+          }
+        },
+        {
+          "id": "mg-road",
+          "name": "MG Road",
+          "rectangle": {
+            "low": {
+              "latitude": 28.472,
+              "longitude": 77.072
+            },
+            "high": {
+              "latitude": 28.486,
+              "longitude": 77.088
+            }
+          }
+        },
+        {
+          "id": "udyog-vihar",
+          "name": "Udyog Vihar",
+          "rectangle": {
+            "low": {
+              "latitude": 28.5,
+              "longitude": 77.067
+            },
+            "high": {
+              "latitude": 28.516,
+              "longitude": 77.083
+            }
+          }
+        },
+        {
+          "id": "dlf-phase-1",
+          "name": "DLF Phase 1",
+          "rectangle": {
+            "low": {
+              "latitude": 28.462,
+              "longitude": 77.098
+            },
+            "high": {
+              "latitude": 28.476,
+              "longitude": 77.114
+            }
+          }
+        },
+        {
+          "id": "dlf-phase-2",
+          "name": "DLF Phase 2",
+          "rectangle": {
+            "low": {
+              "latitude": 28.473,
+              "longitude": 77.089
+            },
+            "high": {
+              "latitude": 28.487,
+              "longitude": 77.105
+            }
+          }
+        },
+        {
+          "id": "dlf-phase-3",
+          "name": "DLF Phase 3",
+          "rectangle": {
+            "low": {
+              "latitude": 28.489,
+              "longitude": 77.099
+            },
+            "high": {
+              "latitude": 28.503,
+              "longitude": 77.115
+            }
+          }
+        },
+        {
+          "id": "dlf-phase-4",
+          "name": "DLF Phase 4",
+          "rectangle": {
+            "low": {
+              "latitude": 28.457,
+              "longitude": 77.085
+            },
+            "high": {
+              "latitude": 28.471,
+              "longitude": 77.101
+            }
+          }
+        },
+        {
+          "id": "dlf-phase-5",
+          "name": "DLF Phase 5",
+          "rectangle": {
+            "low": {
+              "latitude": 28.422,
+              "longitude": 77.09
+            },
+            "high": {
+              "latitude": 28.438,
+              "longitude": 77.106
+            }
+          }
+        },
+        {
+          "id": "sohna-road",
+          "name": "Sohna Road",
+          "rectangle": {
+            "low": {
+              "latitude": 28.384,
+              "longitude": 77.03
+            },
+            "high": {
+              "latitude": 28.406,
+              "longitude": 77.05
+            }
+          }
+        },
+        {
+          "id": "golf-course-extension-road",
+          "name": "Golf Course Extension Road",
+          "rectangle": {
+            "low": {
+              "latitude": 28.388,
+              "longitude": 77.07
+            },
+            "high": {
+              "latitude": 28.408,
+              "longitude": 77.09
+            }
+          }
+        },
+        {
+          "id": "sushant-lok",
+          "name": "Sushant Lok",
+          "rectangle": {
+            "low": {
+              "latitude": 28.444,
+              "longitude": 77.054
+            },
+            "high": {
+              "latitude": 28.46,
+              "longitude": 77.07
+            }
+          }
+        },
+        {
+          "id": "south-city",
+          "name": "South City",
+          "rectangle": {
+            "low": {
+              "latitude": 28.413,
+              "longitude": 77.036
+            },
+            "high": {
+              "latitude": 28.429,
+              "longitude": 77.052
+            }
+          }
+        },
+        {
+          "id": "sector-14",
+          "name": "Sector 14",
+          "rectangle": {
+            "low": {
+              "latitude": 28.457,
+              "longitude": 77.019
+            },
+            "high": {
+              "latitude": 28.473,
+              "longitude": 77.035
+            }
+          }
+        },
+        {
+          "id": "sector-56-57",
+          "name": "Sector 56–57",
+          "rectangle": {
+            "low": {
+              "latitude": 28.41,
+              "longitude": 77.093
+            },
+            "high": {
+              "latitude": 28.424,
+              "longitude": 77.109
+            }
+          }
+        },
+        {
+          "id": "nirvana-country",
+          "name": "Nirvana Country",
+          "rectangle": {
+            "low": {
+              "latitude": 28.401,
+              "longitude": 77.048
+            },
+            "high": {
+              "latitude": 28.415,
+              "longitude": 77.064
+            }
+          }
+        },
+        {
+          "id": "palam-vihar",
+          "name": "Palam Vihar",
+          "rectangle": {
+            "low": {
+              "latitude": 28.497,
+              "longitude": 77.021
+            },
+            "high": {
+              "latitude": 28.513,
+              "longitude": 77.037
+            }
+          }
+        },
+        {
+          "id": "sector-43",
+          "name": "Sector 43",
+          "rectangle": {
+            "low": {
+              "latitude": 28.4455,
+              "longitude": 77.082
+            },
+            "high": {
+              "latitude": 28.4595,
+              "longitude": 77.096
+            }
+          }
+        },
+        {
+          "id": "sector-82-84",
+          "name": "Sector 82–84",
+          "rectangle": {
+            "low": {
+              "latitude": 28.379,
+              "longitude": 76.954
+            },
+            "high": {
+              "latitude": 28.401,
+              "longitude": 76.976
+            }
+          }
+        }
+      ]
+    }
+  }
+}
