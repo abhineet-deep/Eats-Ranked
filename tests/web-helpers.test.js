@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { bayes, confidence, explainScore, formatReviews, timeAgo } from '../web/src/lib/format.js';
+import { bayes, bookUrl, confidence, explainScore, formatReviews, timeAgo } from '../web/src/lib/format.js';
 import { buildSearch, parseFilters, selectList } from '../web/src/lib/filters.js';
 import { bayesianScore } from '../lib/rank.js';
 
@@ -80,5 +80,12 @@ describe('url filters', () => {
     expect(selectList(city, { area: '', cat: 'cafe' })).toEqual({ entries: ['cat'], m: 150, size: 15 });
     expect(selectList(city, { area: 'hsr-layout', cat: 'cafe' })).toEqual({ entries: ['both'], m: 150, size: 15 });
     expect(selectList(city, { area: 'koramangala', cat: 'cafe' }).entries).toEqual([]);
+  });
+});
+
+describe('bookUrl', () => {
+  it('searches district.in for the place and city', () => {
+    const u = new URL(bookUrl('Smoke House Deli', 'Bangalore'));
+    expect(u.searchParams.get('q')).toBe('site:district.in/dining Smoke House Deli Bangalore');
   });
 });

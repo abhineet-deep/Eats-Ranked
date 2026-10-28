@@ -84,6 +84,7 @@ export default function Viewer({ rankings, dark, onToggleTheme }) {
                 entry={entry}
                 index={i}
                 m={m}
+                cityName={meta.name}
                 categoryNames={names.categories}
                 localityNames={names.localities}
                 activeCat={filters.cat}

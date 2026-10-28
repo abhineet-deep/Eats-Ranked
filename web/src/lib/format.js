@@ -52,3 +52,13 @@ export function explainScore(entry) {
 export function bayes(rating, reviews, cityMean, m) {
   return (reviews / (reviews + m)) * rating + (m / (reviews + m)) * cityMean;
 }
+
+/**
+ * "Book a table" link. District (district.in) has no public search URL and its
+ * restaurant URLs can't be derived from a name, so this is a site-restricted search
+ * that lands on the place's District page in one click.
+ */
+export function bookUrl(name, city) {
+  const q = `site:district.in/dining ${name} ${city}`;
+  return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+}

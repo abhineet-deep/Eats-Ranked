@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { confidence, explainScore, formatReviews } from '../lib/format.js';
+import { bookUrl, confidence, explainScore, formatReviews } from '../lib/format.js';
 import { ChevronIcon, ExternalIcon, PinIcon, StarIcon } from './Icons.jsx';
 
 function Price({ level }) {
@@ -12,7 +12,7 @@ function Price({ level }) {
   );
 }
 
-export default function PlaceCard({ entry, m, categoryNames, localityNames, activeCat, activeArea, index }) {
+export default function PlaceCard({ entry, m, cityName, categoryNames, localityNames, activeCat, activeArea, index }) {
   const [open, setOpen] = useState(false);
   const top = entry.rank <= 3;
   const conf = confidence(entry.reviews, m);
@@ -83,7 +83,15 @@ export default function PlaceCard({ entry, m, categoryNames, localityNames, acti
         </div>
       </div>
 
-      <div className="px-4 pb-4 pl-[3.75rem] pt-2 sm:pl-[4.75rem]">
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 px-4 pb-4 pl-[3.75rem] pt-2 sm:pl-[4.75rem]">
+        <a
+          href={bookUrl(entry.name, cityName)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3.5 py-1.5 text-sm font-medium text-white hover:opacity-90"
+        >
+          Book a table <ExternalIcon width={13} height={13} />
+        </a>
         <a
           href={entry.mapsUrl}
           target="_blank"
